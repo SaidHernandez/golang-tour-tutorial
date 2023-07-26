@@ -17,6 +17,9 @@ import ( // Factored import statement
 	"golang-tour-tutorial/tutorial/chapter-4/interfaces"
 	"golang-tour-tutorial/tutorial/chapter-4/methods"
 	typesassert "golang-tour-tutorial/tutorial/chapter-4/types-assert"
+	"golang-tour-tutorial/tutorial/chapter-5/generics"
+	"golang-tour-tutorial/tutorial/chapter-6/channels"
+	"golang-tour-tutorial/tutorial/chapter-6/goroutines"
 	"math"
 	"math/rand"
 	"time"
@@ -131,4 +134,14 @@ func main() {
 	//images
 	images.CallImages()
 
+	//index
+	generics.CallIndex()
+
+	//goroutines
+	goroutines.CallSay()
+
+	//channel
+	channels.CallSum()
+	channels.BufferedChannels()
+	channels.CallFibonacci()
 }
